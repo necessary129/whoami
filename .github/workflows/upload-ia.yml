@@ -1,0 +1,15 @@
+on:
+  workflow_run:
+    workflows: ["Deploy"]
+    types:
+      - completed
+
+jobs:
+  upload-ia:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Upload to internet Archive
+        run: ./upload-to-ia.sh
