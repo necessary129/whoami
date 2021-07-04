@@ -2,7 +2,7 @@ name: Shamil K Muhammed. (aka noteness)
 
 url: https://whoami.ntns.in/
 
-gh_url: https://github.com/necessary129/whoami
+gh_url: https://github.com/necessary129/whoami/commits/main/out/index.html
 
 platforms:
   - irc:
@@ -18,4 +18,19 @@ platforms:
       - id: '@noteness:poddery.com'
         comment: ": Main account"
         link: https://matrix.to/#/@noteness:poddery.com
+  - telegram:
+    title: Telegram
+    ids:
+      - id: '@noteness'
+        comment: ''
+        link: 'https://t.me/noteness'
+  - email:
+    title: Email
+    ids:
+      - id: 'noteness@disroot.org'
+        link: 'mailto:noteness@disroot.org'
+      - id: 'noteness@riseup.net'
+        link: 'mailto:noteness@riseup.net'
+      - id: 'noteness@privacyrequired.com'
+        link: 'mailto:noteness@privacyrequired.com'
       
