@@ -1,0 +1,9 @@
+{
+    "emmet.includeLanguages": {
+        "jinja-html": "html"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "python.pythonPath": ".venv/bin/python",
+    "editor.insertSpaces": false,
+    "python.formatting.provider": "black"
+}

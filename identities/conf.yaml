@@ -1,0 +1,21 @@
+name: Shamil K Muhammed. (aka noteness)
+
+url: https://whoami.ntns.in/
+
+gh_url: https://github.com/necessary129/whoami
+
+platforms:
+  - irc:
+    title: IRC
+    ids:
+      - id: noteness
+        comment: on Libera.Chat
+      - id: noteness
+        comment: on PirateIRC
+  - matrix:
+    title: Matrix
+    ids:
+      - id: '@noteness:poddery.com'
+        comment: ": Main account"
+        link: https://matrix.to/#/@noteness:poddery.com
+      
