@@ -1,3 +1,5 @@
+name: Upload to IA
+
 on:
   workflow_run:
     workflows: ["Deploy"]
