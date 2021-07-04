@@ -3,4 +3,4 @@
 set -eu
 url=$(cat identities/url)
 
-echo $url # Stub till i make the real one.
+curl -X POST "https://web.archive.org/save/$url" --data-urlencode "url=$url" --data-urlencode "capture_all=off"
