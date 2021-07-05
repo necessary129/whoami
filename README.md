@@ -42,4 +42,4 @@ Git commit (preferably a GPG signed commit), push, And you are good to go!
 
 #### NOTE: Always enable your virtualenv with `source .venv/bin/activate` before doing anything
 
-#### Also NOTE: Internet Archive only creates a new snapshot when the previous snapshot is older than45 minutes. So take to not update your identities without atleast 45 minutes in between. Otherwise some changes may not be snapshotted.
+#### Also NOTE: Internet Archive only creates a new snapshot when the previous snapshot is older than 45 minutes. So be careful not to update your identities without atleast 45 minutes in between. Otherwise some changes may not be snapshotted.
