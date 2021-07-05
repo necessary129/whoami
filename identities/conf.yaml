@@ -12,6 +12,10 @@ platforms:
         comment: on Libera.Chat
       - id: noteness
         comment: on PirateIRC
+      - id: noteness
+        comment: on OFTC
+      - id: noteness
+        comment: On hackint
   - matrix:
     title: Matrix
     ids:
