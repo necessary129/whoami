@@ -1,4 +1,3 @@
-from os import path
 import jinja2
 import pathlib
 from yaml import load, Loader

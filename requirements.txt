@@ -1,0 +1,5 @@
+jinja2
+python-gnupg
+pyyaml
+requests
+markdown
