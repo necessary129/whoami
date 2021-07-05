@@ -5,7 +5,7 @@ from yaml import load, Loader
 import markdown
 import requests
 import gnupg
-import time
+from datetime import datetime,timezone
 
 identities = pathlib.Path("identities")
 
@@ -52,7 +52,7 @@ def gentemplate():
         template = f.read()
     jtemplate = jinja2.Template(template)
     return jtemplate.render(
-        conf=conf, btchash=getbtcblock(), misc=genmisc(), date=time.strftime("%X %x %Z")
+        conf=conf, btchash=getbtcblock(), misc=genmisc(), date=datetime.now(timezone.utc).strftime("%X %x %Z")
     )
 
 
