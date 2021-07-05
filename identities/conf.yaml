@@ -37,4 +37,13 @@ platforms:
         link: 'mailto:noteness@riseup.net'
       - id: 'noteness@privacyrequired.com'
         link: 'mailto:noteness@privacyrequired.com'
+  - code-hosting:
+    title: Code Hosting Sites
+    ids:
+      - id: 'necessary129'
+        link: https://github.com/necessary129
+        comment: on GitHub
+      - id: 'necessary129'
+        link: https://gitlab.com/necessary129
+        comment: on GitLab
       

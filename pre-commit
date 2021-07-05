@@ -1,5 +1,5 @@
 #!/usr/bin/sh
 set -eu
-git diff --quiet --cached identities index.html.j2 && exit 0
+git diff --quiet --cached --exit-code identities index.html.j2 && exit 0
 python generate.py
 git add out/index.html
