@@ -22,6 +22,9 @@ platforms:
       - id: '@noteness:poddery.com'
         comment: ": Main account"
         link: https://matrix.to/#/@noteness:poddery.com
+      - id: '@not:ntns.in'
+        comment: "Personal account on personal homeserver"
+        link: "https://matrix.to/#/@not:ntns.in"
   - telegram:
     title: Telegram
     ids:
