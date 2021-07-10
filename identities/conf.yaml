@@ -19,34 +19,35 @@ platforms:
   - matrix:
     title: Matrix
     ids:
-      - id: '@noteness:poddery.com'
+      - id: "@noteness:poddery.com"
         comment: ": Main account"
         link: https://matrix.to/#/@noteness:poddery.com
-      - id: '@not:ntns.in'
+      - id: "@not:ntns.in"
         comment: "Personal account on personal homeserver"
         link: "https://matrix.to/#/@not:ntns.in"
   - telegram:
     title: Telegram
     ids:
-      - id: '@noteness'
-        comment: ''
-        link: 'https://t.me/noteness'
+      - id: "@noteness"
+        comment: ""
+        link: "https://t.me/noteness"
   - email:
     title: Email
     ids:
-      - id: 'noteness@disroot.org'
-        link: 'mailto:noteness@disroot.org'
-      - id: 'noteness@riseup.net'
-        link: 'mailto:noteness@riseup.net'
-      - id: 'noteness@privacyrequired.com'
-        link: 'mailto:noteness@privacyrequired.com'
+      - id: "not@ntns.in"
+        link: "mailto:not@ntns.in"
+      - id: "noteness@disroot.org"
+        link: "mailto:noteness@disroot.org"
+      - id: "noteness@riseup.net"
+        link: "mailto:noteness@riseup.net"
+      - id: "noteness@privacyrequired.com"
+        link: "mailto:noteness@privacyrequired.com"
   - code-hosting:
     title: Code Hosting Sites
     ids:
-      - id: 'necessary129'
+      - id: "necessary129"
         link: https://github.com/necessary129
         comment: on GitHub
-      - id: 'necessary129'
+      - id: "necessary129"
         link: https://gitlab.com/necessary129
         comment: on GitLab
-      
